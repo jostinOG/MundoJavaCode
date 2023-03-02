@@ -32,60 +32,25 @@ public class Menu {
 
     public static void runExercise(int option) {
         switch (option) {
-            case 1:
-                Main.exercise15();
-                break;
-            case 2:
-                Main.exercise16();
-                break;
-            case 3:
-                Main.exercise17();
-                break;
-            case 4:
-                Main.exercise18();
-                break;
-            case 5:
-                Main.exercise19();
-                break;
-            case 6:
-                Main.exercise20();
-                break;
-            case 7:
-                Main.exercise21();
-                break;
-            case 8:
-                Main.exercise22();
-                break;
-            case 9:
-                Main.exercise23();
-                break;
-            case 10:
-                Main.exercise24();
-                break;
-            case 11:
-                Main.exercise22();
-                break;
-            case 12:
-                Main.exercise26();
-                break;
-            case 13:
-                Main.exercise27();
-                break;
-            case 14:
-                Main.exercise28();
-                break;
-            case 15:
-                Main.exercise29();
-                break;
-            case 16:
-                Main.exercise30();
-                break;
-            case 0:
-                System.out.println("Bye!");
-                break;
-            default:
-                System.out.println("Invalid option");
-                break;
+            case 1 -> Main.exercise15();
+            case 2 -> Main.exercise16();
+            case 3 -> Main.exercise17();
+            case 4 -> Main.exercise18();
+            case 5 -> Main.exercise19();
+            case 6 -> Main.exercise20();
+            case 7 -> Main.exercise21();
+            case 8 -> Main.exercise22();
+            case 9 -> Main.exercise23();
+            case 10 -> Main.exercise24();
+            case 11 -> Main.exercise25();
+            case 12 -> Main.exercise26();
+            case 13 -> Main.exercise27();
+            case 14 -> Main.exercise28();
+            case 15 -> Main.exercise29();
+            case 16 -> Main.exercise30();
+            case 17 -> Main.exercise31();
+            case 0 -> System.out.println("Bye!");
+            default -> System.out.println("Invalid option");
         }
 
     }
